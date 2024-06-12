@@ -19,7 +19,7 @@ class App extends StatelessWidget {
       theme: ThemeApp(context: context).vistoriaTheme(),
       navigatorObservers: [HelperRoutes.routeObserver],
       routes: Routes.list,
-      initialRoute: Routes.login ,
+      initialRoute: Routes.home ,
       navigatorKey: Routes.navigatorKey,
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,

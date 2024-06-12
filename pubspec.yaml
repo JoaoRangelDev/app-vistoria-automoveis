@@ -1,6 +1,6 @@
 name: app_vistoria_automoveis
 description: A new Flutter project.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -15,6 +15,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   intl: ^0.17.0
   timeago: ^3.2.2
+  flutter_multiselect: ^1.0.0
+  image_picker: ^0.8.7
+  xfile: ^1.1.0
 
 dev_dependencies:
   flutter_test:

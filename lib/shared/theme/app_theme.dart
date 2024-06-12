@@ -8,7 +8,7 @@ class ThemeApp {
     return ThemeData(
       primarySwatch: Colors.purple,
       appBarTheme: const AppBarTheme(
-        titleTextStyle: TextStyle(fontSize: 20),
+        titleTextStyle: TextStyle(fontSize: 25),
       ),
       textTheme: const TextTheme(
         headline1: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
@@ -18,9 +18,8 @@ class ThemeApp {
       dataTableTheme: DataTableThemeData(
         headingTextStyle: const TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
         headingRowColor: MaterialStateProperty.resolveWith((states) => Colors.purple),
-        dataRowHeight: 40, //64
+        dataRowHeight: 40,
         columnSpacing: 5,
-        // horizontalMargin: 0,
       ),
       expansionTileTheme: const ExpansionTileThemeData(collapsedBackgroundColor: Colors.deepPurple, collapsedTextColor: Colors.white, collapsedIconColor: Colors.white),
       scrollbarTheme: ScrollbarThemeData(thumbColor:  MaterialStateProperty.resolveWith<Color?>(
